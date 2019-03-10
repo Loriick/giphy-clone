@@ -1,0 +1,21 @@
+.main {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  background: black;
+
+  > h1 {
+    margin: 10% 0 5% 0;
+    color: white;
+    font: {
+      size: 50px;
+      family: sans-serif;
+    }
+  }
+  &__gallery {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

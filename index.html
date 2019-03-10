@@ -7,11 +7,21 @@
     <title>Giphy Clone</title>
   </head>
   <body>
-    <form>
-      <input type="text" name="search" />
-      <button type="submit">Search</button>
-    </form>
-    <div id="gallery"></div>
-    <script src="./index.js"></script>
+    <header class="header">
+      <div>
+        <h2 class="header__text">Giphy Clone</h2>
+        <p class="header__text">Favorite</p>
+      </div>
+
+      <form class="header__form">
+        <input type="text" name="search" placeholder="Search some Gif's" />
+        <button type="submit">Search</button>
+      </form>
+    </header>
+    <main class="main">
+      <h1>Gallery</h1>
+      <div class="main__gallery"></div>
+    </main>
+    <script src="./src/index.js"></script>
   </body>
 </html>
