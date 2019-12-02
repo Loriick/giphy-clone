@@ -50,7 +50,7 @@ class Gif {
    * @memberof Gif
    */
   getLike() {
-    const data = storage.get();
+    const data = storage.get() || [];
     return data.some(element => element.id === this.id);
   }
 
